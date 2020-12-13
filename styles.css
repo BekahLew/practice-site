@@ -28,6 +28,10 @@ header {
     padding: 15px;
 }
 
+.logo {
+    width: 45%;
+}
+
 .header-functions {
     text-align: right;
 }
@@ -48,17 +52,13 @@ header {
     padding-right: 4px;
 }
 
-.wrapper {
-    padding: 20px 50px 20px 80px;
-}
-
 .search {
     background: #444;
     width: 250px;
     border-radius: 8px;
     text-align: center;
     padding: 12px;
-    box-shadow: 4px 4px 2px -1px rgba(0,0,0,0.6)
+    box-shadow: 4px 4px 2px -1px rgba(0,0,0,0.6);
 }
 
 .search input {
@@ -78,7 +78,8 @@ nav {
     background: #4980ad;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 4px 4px 2px -1px rgba(0,0,0,0.6)
+    box-shadow: 4px 4px 2px -1px rgba(0,0,0,0.6);
+    margin: 0 50px 0 80px;
 }
 
 nav ul {
@@ -115,7 +116,7 @@ aside li {
 }
 
 .content-wrapper {
-    padding: 20px;
+    margin: 20px 50px 20px 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -145,9 +146,41 @@ aside li {
 
 .documents {
     background: #fff;
-    text-decoration: none;
+    display: flex;
+    text-align: center;
+    padding: 10px 50px 10px 80px;
 }
 
-.logo {
-    width: 45%;
+.documents .more-info {
+    border-top: 4px solid #72a8d5;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+.documents h2 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.documents p {
+    font-size: 13px;
+    padding: 0 25px;
+}
+
+.documents li {
+    list-style-type: square;
+}
+
+.documents ul {
+    padding: 10px 60px;
+}
+
+.documents li a {
+    font-size: 13px;
+    color: #72a8d5;
+}
+
+footer {
+    margin: 0 50px 0 80px;
 }
