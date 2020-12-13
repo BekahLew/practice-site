@@ -2,16 +2,23 @@
     margin: 0;
 }
 
-body {
-    
-}
-
 main {
-    width: 970px;
+    width: 840px;
     background: #265175;
     margin: 0 auto;
+    padding: 20px 50px 20px 80px;
+}
+
+.header-functions {
+    background: #444;
+    width: 30%;
+    height: 65px;
+}
+
+.documents {
+    background: #fff;
 }
 
 .logo {
-    width: 30%;
+    width: 45%;
 }
