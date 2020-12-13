@@ -7,6 +7,11 @@ main {
     background: #265175;
     margin: 0 auto;
     font-family: "Helvetica";
+    font-weight: 100;
+}
+
+ul {
+    padding: 0;
 }
 
 ul li {
@@ -79,8 +84,6 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-evenly;
-    padding: 0;
-    font-weight: 100;
 }
 
 nav a {
@@ -88,15 +91,56 @@ nav a {
     font-size: 22px;
 }
 
+aside {
+    width: 80%;
+    padding-top: 20px;
+}
+
 aside a {
     color: #fff;
-    font-size: 18px;
     text-decoration: underline;
 }
 
 aside li {
+    color: #edca37;
+    font-size: 17px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.info {
     color: #fff;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.content-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.highlights ul {
+    color: #edca37;
     font-size: 18px;
+    font-style: italic;
+}
+
+.highlights {
+    padding-top: 10px;
+}
+
+.highlights li {
+    padding-bottom: 10px;
+}
+
+.highlights p {
+    color: #fff;
 }
 
 .documents {
