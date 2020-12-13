@@ -9,6 +9,14 @@ main {
     font-family: "Helvetica";
 }
 
+ul li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -42,10 +50,10 @@ header {
 .search {
     background: #444;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 8px;
     text-align: center;
-    padding: 15px;
-    box-shadow: 10px 10px 12px -7px rgba(0,0,0,0.6);
+    padding: 12px;
+    box-shadow: 4px 4px 2px -1px rgba(0,0,0,0.6)
 }
 
 .search input {
@@ -61,12 +69,34 @@ header {
     border-radius: 5px;
 }
 
-ul li {
-    list-style-type: none;
+nav {
+    background: #4980ad;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 4px 4px 2px -1px rgba(0,0,0,0.6)
 }
 
-ul li a {
-    text-decoration: none;
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    font-weight: 100;
+}
+
+nav a {
+    color: #fff;
+    font-size: 22px;
+}
+
+aside a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+aside li {
+    color: #fff;
+    font-size: 18px;
 }
 
 .documents {
