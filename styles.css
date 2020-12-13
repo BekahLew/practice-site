@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+body {
+    
+}
+
+main {
+    width: 970px;
+    background: #265175;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 30%;
+}
